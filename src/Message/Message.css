@@ -1,0 +1,33 @@
+/* .message_main {
+  margin-bottom: 20px;
+} */
+.message {
+  padding: 20px;
+  margin: 10px;
+  width: fit-content;
+}
+.message_user {
+  margin-left: auto;
+  color: white;
+  text-align: left !important;
+}
+.message_userCard {
+  background-color: #ea4c89 !important;
+  color: white !important;
+}
+.message_guestCard {
+  background-color: #e9e9eb !important;
+  color: #ea4c89 !important;
+}
+.message__username {
+  color: hsl(205deg 86% 17% / 38%) !important;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  text-align: left;
+}
+.message__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
